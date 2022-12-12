@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useEffect, useState } from 'react';
+import { hotjar } from 'react-hotjar';
 
 function App() {
+  useEffect(() => {
+    hotjar.initialize(3284639, 6)
+  }, [])
   return (
     <div className="App">
       {/* <header className="App-header">
