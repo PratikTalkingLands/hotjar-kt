@@ -23,6 +23,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.main-box {
+  display: flex;
+  flex-direction: column;
+}
+.img-src {
+  height: 400px;
+  width: 500px;
+}
 
 .App-link {
   color: #61dafb;
